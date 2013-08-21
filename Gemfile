@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails',                  '~> 3.0.20'
-gem 'mysql',                  '~> 2.8.1'
+gem 'mysql2','0.2.7'
 gem 'liquid',                 '~> 2.2.2'
 gem 'jquery-rails',           '~> 0.2.4'
 gem 'will_paginate',          '~> 3.0.2'
@@ -17,7 +17,7 @@ gem 'pdf-writer',             '~> 1.1.8', :require => 'pdf/writer'
 gem 'rubyzip',                '~> 0.9.4', :require => 'zip/zip'
 gem 'sanitize',               '~> 1.2.1'
 gem 'haml',                   '~> 3.0.24'
-gem 'paperclip',              '   2.3.11'
+gem 'paperclip',              '2.3.11'
 
 group :development, :test do
   gem 'faker',                '~> 0.3.1'
