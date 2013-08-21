@@ -18,7 +18,7 @@ gem 'rubyzip',                '~> 0.9.4', :require => 'zip/zip'
 gem 'sanitize',               '~> 1.2.1'
 gem 'haml',                   '~> 3.0.24'
 gem 'paperclip',              '2.3.11'
-
+gem 'pg'
 group :development, :test do
   gem 'faker',                '~> 0.3.1'
   gem 'shoulda',              '~> 2.11.3'
