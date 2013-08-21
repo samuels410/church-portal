@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+ruby "1.8.7"
 gem 'rails',                  '~> 3.0.20'
 gem 'mysql2','0.2.7'
 gem 'liquid',                 '~> 2.2.2'
