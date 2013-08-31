@@ -1,13 +1,13 @@
-# OneBody
+church-portal
+=============
+church-portal is open-source, web-based social networking and online directory software for churches. church-portal is built on Ruby on Rails 3 and MySQL.
 
-OneBody is open-source, web-based social networking and online directory software for churches. OneBody is built on Ruby on Rails 3 and MySQL.
-
-Screenshots and feature information can be found at the [commercial website](http://beonebody.com).
+Screenshots and feature information can be found at the [commercial website](http://bechurch-portal.com).
 
 
 ## Install on Ubuntu
 
-OneBody is a complex app with a lot of moving parts. Installation can be lengthy, so we've tried to automate as much of the process as possible using [Capistrano](http://github.com/capistrano/capistrano).
+church-portal is a complex app with a lot of moving parts. Installation can be lengthy, so we've tried to automate as much of the process as possible using [Capistrano](http://github.com/capistrano/capistrano).
 
 If you're dedicated server or VPS is Ubuntu 10.04 or higher, try this:
 
@@ -18,7 +18,7 @@ If you're dedicated server or VPS is Ubuntu 10.04 or higher, try this:
     sudo apt-get install git-core curl build-essential zlib1g-dev libssl-dev libreadline5-dev imagemagick rsync
     # follow http://rvm.beginrescueend.com/rvm/install/ to install RVM
     rvm install ree
-    rvm use ree@onebody --create --default
+    rvm use ree@church-portal --create --default
 
     # 2. on your local machine:
     gem install capistrano
@@ -33,7 +33,7 @@ If you're dedicated server or VPS is Ubuntu 10.04 or higher, try this:
 
     # 3. on your server
     # edit /etc/apache2/sites-available/default
-    # and point DocumentRoot to "/var/www/apps/onebody/current/public"
+    # and point DocumentRoot to "/var/www/apps/church-portal/current/public"
     sudo /etc/init.d/apache2 reload
     # you may also need to set smtpd_use_tls=no in your /etc/postfix/main.cf
 
@@ -42,15 +42,15 @@ If you're dedicated server or VPS is Ubuntu 10.04 or higher, try this:
 
 We also have full step-by-step instructions in our INSTALL.md file.
 
-Please visit the [PostfixEmailSetup](http://github.com/seven1m/onebody/wiki/PostfixEmailSetup) page on the wiki for help with setting up incoming email.
+Please visit the [PostfixEmailSetup](http://github.com/seven1m/church-portal/wiki/PostfixEmailSetup) page on the wiki for help with setting up incoming email.
 
 
 ## More Information
 
-* [Wiki](http://wiki.github.com/seven1m/onebody) - A wonderful resource full of helpful information; Check here first.
-* [Blog](http://blog.beonebody.com) - Some intermittent updates about new features.
-* [Google Group](http://groups.google.com/group/onebodyapp) - Community of hackers working on OneBody and running their own OneBody servers. If you're stuck, ask nicely for some help and you will probably get it.
-* [Twitter](http://twitter.com/onebody) - Status updates for beonebody.com and occasional feature notes.
+* [Wiki](http://wiki.github.com/seven1m/church-portal) - A wonderful resource full of helpful information; Check here first.
+* [Blog](http://blog.bechurch-portal.com) - Some intermittent updates about new features.
+* [Google Group](http://groups.google.com/group/church-portalapp) - Community of hackers working on church-portal and running their own church-portal servers. If you're stuck, ask nicely for some help and you will probably get it.
+* [Twitter](http://twitter.com/church-portal) - Status updates for bechurch-portal.com and occasional feature notes.
 
 
 ## Copyright
@@ -65,3 +65,8 @@ THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.
 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
 This software is license under the GNU Affero General Public License, version 3. See LICENSE provided with this program for the entire text.
+
+
+
+The church portal and collaboration paltform
+
