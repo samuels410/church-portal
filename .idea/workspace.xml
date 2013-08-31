@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7abd101-db9e-413a-8768-b48eef289a9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="church-portal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,6 +40,7 @@
     <file path="$PROJECT_DIR$/../irrad/app/views/multicast/index.html.erb" changelist="f7abd101-db9e-413a-8768-b48eef289a9a" time="1377707655845" ignored="false" />
     <file path="$PROJECT_DIR$/../irrad/app/views/devise/registrations/edit.html.erb" changelist="f7abd101-db9e-413a-8768-b48eef289a9a" time="1377707702092" ignored="false" />
     <file path="$PROJECT_DIR$/../irrad/db/seeds.rb" changelist="f7abd101-db9e-413a-8768-b48eef289a9a" time="1377707995357" ignored="false" />
+    <file path="/README.md" changelist="f7abd101-db9e-413a-8768-b48eef289a9a" time="1377974630390" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="82" selection-start="2414" selection-end="2414" vertical-scroll-proportion="0.0">
+            <state line="59" column="53" selection-start="2539" selection-end="2539" vertical-scroll-proportion="0.5086207">
               <folding />
             </state>
           </provider>
@@ -105,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="485" selection-end="485" vertical-scroll-proportion="0.68296796">
+            <state line="14" column="43" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,9 +136,9 @@
         <option value="$PROJECT_DIR$/db/migrate/20101116044703_clean_up_pages.rb" />
         <option value="$PROJECT_DIR$/app/models/setting.rb" />
         <option value="$PROJECT_DIR$/app/models/person.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -647,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="82" selection-start="2414" selection-end="2414" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="44" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
@@ -663,7 +656,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="485" selection-end="485" vertical-scroll-proportion="0.68296796">
+        <state line="14" column="43" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="53" selection-start="2539" selection-end="2539" vertical-scroll-proportion="0.5086207">
           <folding />
         </state>
       </provider>

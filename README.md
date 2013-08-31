@@ -1,6 +1,6 @@
 church-portal
 =============
-church-portal is open-source, web-based social networking and online directory software for churches. church-portal is built on Ruby on Rails 3 and MySQL.
+church-portal is open-source, web-based social networking and online directory software for churches. church-portal is built on Ruby on Rails 3 and Postgres.
 
 Screenshots and feature information can be found at the [commercial website](http://bechurch-portal.com).
 
@@ -55,7 +55,7 @@ Please visit the [PostfixEmailSetup](http://github.com/seven1m/church-portal/wik
 
 ## Copyright
 
-Copyright (c) 2008-2010, [Tim Morgan](http://timmorgan.org)
+Copyright (c) 2013, [samuel santhosh](http://santhosh.herokuapp.com)
 
 
 ## Disclaimer & License
