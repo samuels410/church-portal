@@ -25,3 +25,4 @@ pkg
 script/package
 db/bible.web.osis.xml
 .idea/
+.idea/workspace.xml
